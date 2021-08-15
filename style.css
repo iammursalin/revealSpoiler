@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body {
+    background: #262626;
+}
+.content {
+    padding: 50px;
+}
+.switch {
+    position: fixed;
+    top: 50px;
+    left: 87%;
+    padding: 10px 10px;
+    background: rgb(24, 226, 58);
+    border: none;
+    cursor: pointer;
+}
+.switch:hover {
+    background: rgb(23, 187, 50);
+    transition: 0.5s;
+}
+.content h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5rem;
+    color: rgb(225, 238, 49);
+}
+.note {
+    color: rgb(230, 230, 16) !important;
+}
+.content p {
+    color: rgb(216, 199, 199);
+    line-height: 22px;
+    font-size: 14px;
+}
+.spoiler {
+    /* color: yellow; */
+    filter: blur(5px);
+    /* transition: 0.5s; */
+}
